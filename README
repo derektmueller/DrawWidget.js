@@ -1,0 +1,18 @@
+
+DrawWidget.js
+
+A crude drawing widget based on Prototypes.js
+
+Dependencies: jQuery, Prototypes.js
+
+
+Example:
+
+Instantiation:
+  <div id="canvas_container_0"></div>
+  <script>
+    sketchPad = new DrawWidget ({
+        parentElement: "#canvas_container_0"
+    });
+  </script>
+

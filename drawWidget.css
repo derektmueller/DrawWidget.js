@@ -1,0 +1,74 @@
+/*
+https://github.com/parenparen/DrawWidget.js
+
+Copyright 2013 Derek Mueller
+Released under the MIT license
+http://opensource.org/licenses/MIT
+*/
+
+
+/*
+resets, courtesy of
+http://meyerweb.com/eric/tools/css/reset/ (public domain)
+*/
+.dw-canvas-container,
+.dw-canvas-container canvas,
+.dw-toolbar,
+.dw-toolbar table,
+.dw-toolbar td,
+.dw-toolbar tr,
+.dw-toolbar th,
+.dw-toolbar tbody,
+.dw-toolbar span,
+.dw-toolbar div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+
+/*
+more resets, courtesy of
+http://meyerweb.com/eric/tools/css/reset/ (public domain)
+*/
+.dw-toolbar table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.dw-canvas-container {
+    float: left;
+}
+
+.dw-toolbar table {
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.dw-toolbar table td {
+    border: 1px solid black;
+    padding: 4px;
+    width: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dw-toolbar table td.dw-color:hover,
+.dw-toolbar table td.dw-tool:hover {
+    background: gray;
+}
+
+.dw-toolbar table td.dw-color:active,
+.dw-toolbar table td.dw-tool:active {
+    background: black;
+}
+
+.dw-toolbar table td.dw-color.clicked,
+.dw-toolbar table td.dw-tool.clicked {
+    background: rgb(228, 228, 228);
+}
+
