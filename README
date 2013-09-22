@@ -3,7 +3,9 @@ DrawWidget.js
 
 A crude drawing widget based on Prototypes.js
 
-Dependencies: jQuery, Prototypes.js
+Dependencies: 
+    - jQuery
+    - Prototypes.js (https://github.com/parenparen/Prototypes.js)
 
 
 Example:
